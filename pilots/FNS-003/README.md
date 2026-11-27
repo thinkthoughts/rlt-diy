@@ -1,6 +1,6 @@
 # FNS-003 — Fractal Neural Synthesis
 
-Status: registered independent research pilot; preliminary assessment registered (RLT-FNS-001a). Collaboration has not been agreed. No independent reproduction, implementation audit or physical energy measurement is claimed.
+Status: frozen technical candidate RLT-FNS-001h available for independent review. Collaboration has not been agreed. Independent clean replay, acceptance, benchmark reproduction and physical energy measurement remain pending.
 
 ## Leading specification
 
@@ -9,7 +9,7 @@ Volkan Dagli, Zerrin Dagli and Daghan Dagli, *Fractal Neural Synthesis: Constant
 - Upstream: https://github.com/pCwOrM/fractal-neural-synthesis
 - Initial source revision: `be57087b8b368490e6ed49deb7ed60f0ff0b2fd0` (repository inventory inspected 2026-11-27; full paper and proof audit pending).
 - License: [BSL 1.1](https://github.com/pCwOrM/fractal-neural-synthesis/blob/be57087b8b368490e6ed49deb7ed60f0ff0b2fd0/LICENSE), permitting noncommercial academic inspection and reproduction; commercial deployment restricted, patent notice applies. Review rights before redistribution or product development.
-- Companion repository: https://github.com/thinkthoughts/rlt-fns. Documentation baseline `cc99046f74983b47815f2aba633ce05ef33a93ac`; 12 obligations, 8 source artifacts, machine verification pending.
+- Companion repository: https://github.com/thinkthoughts/rlt-fns. [Frozen candidate](https://github.com/thinkthoughts/rlt-fns/tree/7015035e8b78c3e75f428316a81d9b7f4701b6ff); 12 obligations, 8 source artifacts, 23 Lean theorems, 24 declaration identities, 14 negative integrity probes and two positive controls, 74 locally matched release artifacts.
 
 ## Leading reading point
 
@@ -17,7 +17,15 @@ Reduced storage alone is insufficient to establish reduced energy consumption.
 
 A 24-byte coordinate seed is distinct from total persistent model storage, working memory, firmware, readout parameters and computation. Compare equal workload and output quality, counting memory traffic, latency, iteration costs and measured energy within declared system boundaries. Edge-device results are not evidence of data-center savings without a separate correspondence study.
 
-## Initial assessment: RLT-FNS-001
+## Available for review: RLT-FNS-001h
+
+Three correction candidates: exact cross-cell coordinate collision (M=3, indices 1 and 2); a Lean counterexample to the universal C¹ quadratic Taylor remainder; a positive rational interval enclosure of the leading 3×3 determinant of the exact centered Vogel affine test matrix (0.001075694 < D < 0.001075695). The last establishes exact rank at least three for that matrix, not the empirical effective rank of the actual generators.
+
+[Internal audit](https://github.com/thinkthoughts/rlt-fns/blob/7015035e8b78c3e75f428316a81d9b7f4701b6ff/docs/RLT-FNS-001h-B-INTERNAL-AUDIT.md) · [Vogel certificate](https://github.com/thinkthoughts/rlt-fns/blob/7015035e8b78c3e75f428316a81d9b7f4701b6ff/docs/RLT-FNS-001g-C-VOGEL.md) · [Audit repairs](https://github.com/thinkthoughts/rlt-fns/blob/7015035e8b78c3e75f428316a81d9b7f4701b6ff/docs/RLT-FNS-001h-B1-REPAIRS.md) · [Frozen manifest](https://github.com/thinkthoughts/rlt-fns/blob/7015035e8b78c3e75f428316a81d9b7f4701b6ff/claims/release-artifacts.json). User-reported VPS release gate reached pending-review refusal (exit 1) after matching all 74 artifacts. Independent replay and acceptance pending; full normal verification transcript not separately supplied.
+
+Authors and interested researchers are invited to inspect, reproduce or challenge the work independently via [GitHub issues](https://github.com/thinkthoughts/rlt-fns/issues). Further collaboration is open to discussion. No endorsement implied.
+
+## Initial assessment: RLT-FNS-001 (historical)
 
 Preliminary findings and next specification: [assessment](https://github.com/thinkthoughts/rlt-fns/blob/cc99046f74983b47815f2aba633ce05ef33a93ac/docs/RLT-FNS-001-ASSESSMENT.md), [obligations](https://github.com/thinkthoughts/rlt-fns/blob/cc99046f74983b47815f2aba633ce05ef33a93ac/claims/obligations.json), [001b](https://github.com/thinkthoughts/rlt-fns/blob/cc99046f74983b47815f2aba633ce05ef33a93ac/docs/RLT-FNS-001b-SPEC.md). Selected manuscript sections and source code inspected, with Taylor remainder and sampling-layout qualifications; full audit and execution pending.
 
