@@ -15,9 +15,11 @@ DIY helps authors translate scientific specifications into independently verifia
 Status: initial methodology draft; no collaboration or endorsement is implied. Application repositories own their own models and implementation. The RLT kernel remains unchanged unless a separately reviewed general extension is justified.
 
 ## Organization
-- [Foundations](foundations/README.md)
+- [Immunesystem.now engineering foundations](foundations/README.md)
 - [Independent acceptance](methodology/DIY-002.md)
 - [Pilot register](pilots/README.md)
 - [Acceptance template](templates/ACCEPTANCE.md)
 
 Organize engineering around specifications rather than occupational boundaries. TI is active; DAM is prospective.
+
+The engineering foundations constitute our own leading specification work, distinct from author-led pilot specifications.
