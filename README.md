@@ -20,6 +20,6 @@ Status: initial methodology draft; no collaboration or endorsement is implied. A
 - [Pilot register](pilots/README.md)
 - [Acceptance template](templates/ACCEPTANCE.md)
 
-Organize engineering around specifications rather than occupational boundaries. TI is active; DAM is prospective.
+Organize engineering around specifications rather than occupational boundaries. TI is active; DAM is prospective; FNS is registered for initial independent research assessment.
 
 The engineering foundations constitute our own leading specification work, distinct from author-led pilot specifications.

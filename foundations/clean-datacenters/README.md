@@ -15,3 +15,7 @@ Processors, cooling, power and metering.
 
 ## Acceptance boundary
 Compare equivalent service quality and workloads; distinguish estimates from physical measurements.
+
+## Pilot correspondence
+
+[FNS-003](../../pilots/FNS-003/README.md) investigates procedural weight generation. Reduced storage alone is insufficient to establish reduced energy consumption. Compare energy per useful inference under equivalent quality and workload, with hardware and measurement boundaries recorded. No energy savings are yet established.
