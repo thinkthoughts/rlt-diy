@@ -11,3 +11,6 @@ Review the source and exact implementation commit independently. Challenge assum
 
 ## Handoff
 Prepare author-owned repository setup, instructions, roadmap, reproducible checks, outstanding decisions, licenses and attribution. Distinguish public reference implementation from official product. Agree terms before transferring domains or undertaking proprietary work.
+
+## Acceptance
+Use [DIY-002](../methodology/DIY-002.md). Keep technical checks separate from release approval and bind independent review to exact artifacts.

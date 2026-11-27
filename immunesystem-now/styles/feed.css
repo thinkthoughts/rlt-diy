@@ -62,3 +62,5 @@
 }
 .grid > .feed-card.featured { background:var(--featured); }
 .feed-card .feed-status{padding-top:16px}.feed-card h3{font-size:1.5rem}.feed-list{padding-top:32px}.feed-heading{margin:0 0 14px;font-size:1.5rem;font-weight:550}.feed-card{min-height:235px}.feed-controls{margin-top:20px}
+
+.feed-card h3 a{color:var(--plum)}

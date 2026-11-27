@@ -56,3 +56,5 @@ h2 {
 
 
 .hero h1{font-weight:450}.hero h1 em{color:var(--accent)}.table-wrap{overflow-x:auto}.section:last-child{border-bottom:0}.nav a[aria-current="page"]{color:var(--accent);text-decoration:underline}.feature .small{font-size:.88rem}.milestones td:nth-child(2){white-space:normal}.card{min-width:0}.step{min-width:0}.steps{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:720px){.steps{grid-template-columns:1fr}.header .brand{margin-left:0}.header-inner{gap:12px}}
+
+h1,.hero h1,.hero h1 em{color:var(--reading-point)}h2{color:var(--plum)}.tag{color:var(--gold)}
