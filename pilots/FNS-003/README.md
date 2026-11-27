@@ -1,6 +1,6 @@
 # FNS-003 — Fractal Neural Synthesis
 
-Status: registered independent research pilot; initial assessment planned. Collaboration has not been agreed. No independent reproduction, implementation audit or physical energy measurement is claimed.
+Status: registered independent research pilot; preliminary assessment registered (RLT-FNS-001a). Collaboration has not been agreed. No independent reproduction, implementation audit or physical energy measurement is claimed.
 
 ## Leading specification
 
@@ -9,7 +9,7 @@ Volkan Dagli, Zerrin Dagli and Daghan Dagli, *Fractal Neural Synthesis: Constant
 - Upstream: https://github.com/pCwOrM/fractal-neural-synthesis
 - Initial source revision: `be57087b8b368490e6ed49deb7ed60f0ff0b2fd0` (repository inventory inspected 2026-11-27; full paper and proof audit pending).
 - License: [BSL 1.1](https://github.com/pCwOrM/fractal-neural-synthesis/blob/be57087b8b368490e6ed49deb7ed60f0ff0b2fd0/LICENSE), permitting noncommercial academic inspection and reproduction; commercial deployment restricted, patent notice applies. Review rights before redistribution or product development.
-- Companion repository `thinkthoughts/rlt-fns` is proposed, not created.
+- Companion repository: https://github.com/thinkthoughts/rlt-fns. Documentation baseline `cc99046f74983b47815f2aba633ce05ef33a93ac`; 12 obligations, 8 source artifacts, machine verification pending.
 
 ## Leading reading point
 
@@ -18,6 +18,8 @@ Reduced storage alone is insufficient to establish reduced energy consumption.
 A 24-byte coordinate seed is distinct from total persistent model storage, working memory, firmware, readout parameters and computation. Compare equal workload and output quality, counting memory traffic, latency, iteration costs and measured energy within declared system boundaries. Edge-device results are not evidence of data-center savings without a separate correspondence study.
 
 ## Initial assessment: RLT-FNS-001
+
+Preliminary findings and next specification: [assessment](https://github.com/thinkthoughts/rlt-fns/blob/cc99046f74983b47815f2aba633ce05ef33a93ac/docs/RLT-FNS-001-ASSESSMENT.md), [obligations](https://github.com/thinkthoughts/rlt-fns/blob/cc99046f74983b47815f2aba633ce05ef33a93ac/claims/obligations.json), [001b](https://github.com/thinkthoughts/rlt-fns/blob/cc99046f74983b47815f2aba633ce05ef33a93ac/docs/RLT-FNS-001b-SPEC.md). Selected manuscript sections and source code inspected, with Taylor remainder and sampling-layout qualifications; full audit and execution pending.
 
 Read the complete pinned paper and register exact claim locations, source hashes and dependencies. Inspect existing Lean declarations, axioms and statement correspondence; distinguish exact recurrence mathematics from numerical arithmetic and benchmark evidence. Reproduce only after pinning dependencies and defining the acceptance criteria. No kernel changes or application implementation in this registration.
 
