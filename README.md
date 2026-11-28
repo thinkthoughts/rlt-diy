@@ -23,3 +23,5 @@ Status: initial methodology draft; no collaboration or endorsement is implied. A
 Organize engineering around specifications rather than occupational boundaries. TI is active; DAM is prospective; FNS is registered for initial independent research assessment.
 
 The engineering foundations constitute our own leading specification work, distinct from author-led pilot specifications.
+
+DSC-004 is an initial distributed scientific computing pilot at the intersection of clean money systems and clean datacenters. See the [pilot register](pilots/README.md) and [research record](https://rlt-fro.now/DSC/).
