@@ -1,0 +1,95 @@
+{
+  "schema": "diy-s1-synthetic-v1",
+  "context": {
+    "workload": "synthetic-work-v1",
+    "quality": "same-accepted-criterion",
+    "functional_unit": "accepted-task",
+    "boundary": "synthetic-wall",
+    "region": "synthetic-region",
+    "period": "synthetic-period"
+  },
+  "baseline": {
+    "id": "base",
+    "hardware": "machine-a",
+    "software": "v1",
+    "meter": "synthetic-meter-a",
+    "intensity_source": "synthetic-grid",
+    "embodied_source": "synthetic-inventory-a",
+    "work": [
+      "100",
+      "100"
+    ],
+    "intervals": [
+      {
+        "start_s": 0,
+        "end_s": 3600,
+        "energy_kwh": [
+          "4",
+          "5"
+        ],
+        "intensity_gco2e_per_kwh": [
+          "200",
+          "250"
+        ]
+      },
+      {
+        "start_s": 3600,
+        "end_s": 7200,
+        "energy_kwh": [
+          "5",
+          "6"
+        ],
+        "intensity_gco2e_per_kwh": [
+          "300",
+          "350"
+        ]
+      }
+    ],
+    "embodied_gco2e": [
+      "400",
+      "500"
+    ]
+  },
+  "candidate": {
+    "id": "candidate",
+    "hardware": "machine-b",
+    "software": "v2",
+    "meter": "synthetic-meter-b",
+    "intensity_source": "synthetic-grid",
+    "embodied_source": "synthetic-inventory-b",
+    "work": [
+      "100",
+      "100"
+    ],
+    "intervals": [
+      {
+        "start_s": 0,
+        "end_s": 3600,
+        "energy_kwh": [
+          "2",
+          "3"
+        ],
+        "intensity_gco2e_per_kwh": [
+          "200",
+          "250"
+        ]
+      },
+      {
+        "start_s": 3600,
+        "end_s": 7200,
+        "energy_kwh": [
+          "3",
+          "4"
+        ],
+        "intensity_gco2e_per_kwh": [
+          "300",
+          "350"
+        ]
+      }
+    ],
+    "embodied_gco2e": [
+      "400",
+      "500"
+    ]
+  }
+}
