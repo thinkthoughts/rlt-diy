@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "record_id": "DIY-VER-002-VPS-001",
+  "kind": "operator_reported_execution",
+  "candidate_reference": "14541fdc1377c31982d96d7f226a101b1fa25ba9",
+  "observed_checkout": null,
+  "python_version": null,
+  "tests": {
+    "run": 16,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_seconds": "0.200"
+  },
+  "gate_exit": 2,
+  "result": {
+    "acceptance": "PENDING",
+    "axes": 20,
+    "baseline": "6cf606def424a512efae27af460a9cf89f4cda9b",
+    "candidate_execution_verified": false,
+    "independent_review": false,
+    "pending_axes": 19,
+    "records": 2,
+    "release_authority": false,
+    "reported_pass": 1,
+    "sha256": {
+      "research/diy-ver-001/evidence/s1-vps-001.json": "92c64be208bc1ddb50085b005895c6c1679133f443195e9f61ffcb15c8736425",
+      "research/diy-ver-001/register.json": "d0028a41059aa6982e2a32e530e07bb3a439476de7d4b28c838efaa95ee89ec2",
+      "research/diy-ver-001/register.schema.json": "4df3cd399ff37309e3c07bbe19e626f3a36d773fb9c3d9a426dc31e70d76ef56"
+    },
+    "status": "FROZEN_INVENTORY_MATCH"
+  },
+  "limitations": [
+    "Executed checkout and interpreter version not separately captured.",
+    "Operator-supplied output, not independently captured.",
+    "No release approval or physical validation."
+  ]
+}
