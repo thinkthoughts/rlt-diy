@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "DIY-D1-002",
+      "scope": "Synthetic accounting reference implementation",
+      "specification": {
+        "commit": "eddc9ebd7d1e712cf0a0a01c8e3a45b37762f8d7",
+        "path": "foundations/clean-money-systems/DIY-D1-001.md"
+      },
+      "candidate": {
+        "repository": "https://github.com/thinkthoughts/rlt-diy",
+        "commit": "8c1eff6df4dcdec7007449e6b8704de12b4d9f66",
+        "path": "research/diy-d1-002/"
+      },
+      "axes": {
+        "statement_identity": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "source_fidelity": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "analytical_proof": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "lean_check": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "rlt_check": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "software_execution": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "implementation_correspondence": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "external_observation": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "physical_validation": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "independent_review": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        }
+      },
+      "acceptance": {
+        "decision": "PENDING",
+        "reviewer": null,
+        "review_record": null
+      },
+      "open_obligations": [
+        "Execution transcript",
+        "Independent adversarial review",
+        "Signature and external source authentication",
+        "Cross-batch replay policy"
+      ]
+    },
+    {
+      "id": "DIY-S1-002",
+      "scope": "Synthetic accounting reference implementation",
+      "specification": {
+        "commit": "eddc9ebd7d1e712cf0a0a01c8e3a45b37762f8d7",
+        "path": "foundations/clean-datacenters/DIY-S1-001.md"
+      },
+      "candidate": {
+        "repository": "https://github.com/thinkthoughts/rlt-diy",
+        "commit": "5099cf7cabb073fb6fb60a2e086f78087aa366f7",
+        "path": "research/diy-s1-002/"
+      },
+      "axes": {
+        "statement_identity": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "source_fidelity": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "analytical_proof": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "lean_check": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "rlt_check": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "software_execution": {
+          "status": "REPORTED_PASS",
+          "evidence": [
+            "evidence/s1-vps-001.json"
+          ],
+          "scope": "Operator reports 12 tests and synthetic gate exit 2; executed checkout unrecorded."
+        },
+        "implementation_correspondence": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "external_observation": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "physical_validation": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        },
+        "independent_review": {
+          "status": "PENDING",
+          "evidence": [],
+          "scope": "No acceptance decision recorded."
+        }
+      },
+      "acceptance": {
+        "decision": "PENDING",
+        "reviewer": null,
+        "review_record": null
+      },
+      "open_obligations": [
+        "Independent adversarial review",
+        "Executed checkout and environment identity",
+        "Physical measurement provenance",
+        "Workload equivalence"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "record_id": "DIY-S1-002-VPS-001",
+  "kind": "operator_reported_execution",
+  "date": "2026-11-28",
+  "candidate_reference": "5099cf7cabb073fb6fb60a2e086f78087aa366f7",
+  "observed_checkout": null,
+  "environment": {
+    "platform": "operator VPS (reported)",
+    "python_version": null
+  },
+  "commands": "Not separately supplied; output follows suggested reproduction commands.",
+  "tests": {
+    "run": 12,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_seconds": "0.005"
+  },
+  "gate_exit": 2,
+  "result": {
+    "acceptance": "PENDING",
+    "baseline": {
+      "embodied_gco2e": [
+        "400",
+        "500"
+      ],
+      "emissions_per_work": [
+        "27",
+        "77/2"
+      ],
+      "energy_kwh": [
+        "9",
+        "11"
+      ],
+      "energy_per_work": [
+        "9/100",
+        "11/100"
+      ],
+      "operational_gco2e": [
+        "2300",
+        "3350"
+      ],
+      "total_gco2e": [
+        "2700",
+        "3850"
+      ]
+    },
+    "candidate": {
+      "embodied_gco2e": [
+        "400",
+        "500"
+      ],
+      "emissions_per_work": [
+        "17",
+        "53/2"
+      ],
+      "energy_kwh": [
+        "5",
+        "7"
+      ],
+      "energy_per_work": [
+        "1/20",
+        "7/100"
+      ],
+      "operational_gco2e": [
+        "1300",
+        "2150"
+      ],
+      "total_gco2e": [
+        "1700",
+        "2650"
+      ]
+    },
+    "comparability_verified": false,
+    "comparison": {
+      "emissions_per_work": "STRICTLY_LOWER",
+      "energy_per_work": "STRICTLY_LOWER"
+    },
+    "physical_validation": false,
+    "status": "SYNTHETIC_ACCOUNTING"
+  },
+  "limitations": [
+    "Exact executed checkout and interpreter version not captured.",
+    "Transcript supplied by operator, not independently captured by reviewer.",
+    "Synthetic inputs only; no physical or comparability validation."
+  ]
+}

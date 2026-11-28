@@ -25,3 +25,7 @@ Organize engineering around specifications rather than occupational boundaries. 
 The engineering foundations constitute our own leading specification work, distinct from author-led pilot specifications.
 
 DSC-004 is an initial distributed scientific computing pilot at the intersection of clean money systems and clean datacenters. See the [pilot register](pilots/README.md) and [research record](https://rlt-fro.now/DSC/).
+
+## Common evidence records
+
+[DIY-VER-001](methodology/DIY-VER-001.md) extends independent acceptance with a proposed machine-readable evidence register for D1 and S1. Both candidates remain unmerged; full acceptance pending.

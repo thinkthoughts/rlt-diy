@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DIY-VER-001 evidence register v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "scope",
+          "specification",
+          "candidate",
+          "axes",
+          "acceptance",
+          "open_obligations"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "specification": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "commit",
+              "path"
+            ],
+            "properties": {
+              "commit": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{40}$"
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "candidate": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "repository",
+              "commit",
+              "path"
+            ],
+            "properties": {
+              "repository": {
+                "type": "string",
+                "minLength": 1
+              },
+              "commit": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{40}$"
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "axes": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "statement_identity",
+              "source_fidelity",
+              "analytical_proof",
+              "lean_check",
+              "rlt_check",
+              "software_execution",
+              "implementation_correspondence",
+              "external_observation",
+              "physical_validation",
+              "independent_review"
+            ],
+            "properties": {
+              "statement_identity": {
+                "$ref": "#/$defs/axis"
+              },
+              "source_fidelity": {
+                "$ref": "#/$defs/axis"
+              },
+              "analytical_proof": {
+                "$ref": "#/$defs/axis"
+              },
+              "lean_check": {
+                "$ref": "#/$defs/axis"
+              },
+              "rlt_check": {
+                "$ref": "#/$defs/axis"
+              },
+              "software_execution": {
+                "$ref": "#/$defs/axis"
+              },
+              "implementation_correspondence": {
+                "$ref": "#/$defs/axis"
+              },
+              "external_observation": {
+                "$ref": "#/$defs/axis"
+              },
+              "physical_validation": {
+                "$ref": "#/$defs/axis"
+              },
+              "independent_review": {
+                "$ref": "#/$defs/axis"
+              }
+            }
+          },
+          "acceptance": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "decision",
+              "reviewer",
+              "review_record"
+            ],
+            "properties": {
+              "decision": {
+                "enum": [
+                  "PENDING",
+                  "APPROVED",
+                  "REJECTED"
+                ]
+              },
+              "reviewer": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "review_record": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "open_obligations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "axis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "evidence",
+        "scope"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "PENDING",
+            "REPORTED_PASS",
+            "SCOPED_PASS",
+            "FAIL",
+            "UNSUPPORTED",
+            "NOT_APPLICABLE"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
