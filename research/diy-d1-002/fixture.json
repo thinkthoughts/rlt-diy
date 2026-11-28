@@ -1,0 +1,45 @@
+{
+  "schema": "diy-d1-fixture-v1",
+  "network": "synthetic",
+  "asset": "TEST",
+  "batch_id": "batch-001",
+  "rule": {
+    "id": "floor-3-over-2",
+    "numerator": 3,
+    "denominator": 2
+  },
+  "contributions": [
+    {
+      "id": "c1",
+      "participant": "p1",
+      "units": 5,
+      "destination": "dest1"
+    },
+    {
+      "id": "c2",
+      "participant": "p1",
+      "units": 3,
+      "destination": "dest1"
+    },
+    {
+      "id": "c3",
+      "participant": "p2",
+      "units": 8,
+      "destination": "dest2"
+    }
+  ],
+  "outputs": [
+    {
+      "txid": "tx1",
+      "vout": 0,
+      "destination": "dest1",
+      "amount": 11
+    },
+    {
+      "txid": "tx1",
+      "vout": 1,
+      "destination": "dest2",
+      "amount": 12
+    }
+  ]
+}

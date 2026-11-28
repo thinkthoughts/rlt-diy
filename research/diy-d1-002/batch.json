@@ -1,0 +1,36 @@
+{
+  "schema": "diy-d1-synthetic-v1",
+  "network": "synthetic",
+  "asset": "TEST",
+  "batch_id": "batch-001",
+  "rule_id": "floor-3-over-2",
+  "rows": [
+    {
+      "contribution_id": "c1",
+      "participant": "p1",
+      "units": 5,
+      "destination": "dest1",
+      "amount": 7,
+      "txid": "tx1",
+      "vout": 0
+    },
+    {
+      "contribution_id": "c2",
+      "participant": "p1",
+      "units": 3,
+      "destination": "dest1",
+      "amount": 4,
+      "txid": "tx1",
+      "vout": 0
+    },
+    {
+      "contribution_id": "c3",
+      "participant": "p2",
+      "units": 8,
+      "destination": "dest2",
+      "amount": 12,
+      "txid": "tx1",
+      "vout": 1
+    }
+  ]
+}
