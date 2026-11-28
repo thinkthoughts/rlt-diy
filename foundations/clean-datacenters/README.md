@@ -19,3 +19,7 @@ Compare equivalent service quality and workloads; distinguish estimates from phy
 ## Pilot correspondence
 
 [FNS-003](../../pilots/FNS-003/README.md) investigates procedural weight generation. Reduced storage alone is insufficient to establish reduced energy consumption. Compare energy per useful inference under equivalent quality and workload, with hardware and measurement boundaries recorded. No energy savings are yet established.
+
+## Leading specification
+
+[DIY-S1-001 — Resource-to-useful-work correspondence](DIY-S1-001.md): proposed comparable-workload measurement, units, uncertainty, operational and embodied emissions, and independent acceptance.

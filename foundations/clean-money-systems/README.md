@@ -5,3 +5,7 @@ Leading specification research: #reparationsNow — PiπΠ; verifiably optimizin
 Monetary conservation establishes an arithmetic relationship, not sustainable outcomes. Register issuance, attribution, distribution, consent, incentives and physical consequences separately. Compare explicit alternatives with measured boundaries, uncertainty and trade-offs. No single sustainability score or economic policy is selected.
 
 Initial intersection: [DSC-004](../../pilots/DSC-004/README.md) and [clean datacenters](../clean-datacenters/README.md). Other applications remain open. No certification or sustainability improvement is asserted.
+
+## Leading specification
+
+[DIY-D1-001 — Distribution correspondence](DIY-D1-001.md): proposed signed, versioned contribution-to-payment reconciliation, with exact arithmetic, attribution, privacy and independent evidence boundaries.
