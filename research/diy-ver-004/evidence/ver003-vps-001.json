@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "record_id": "DIY-VER-003-VPS-001",
+  "kind": "operator_reported_execution",
+  "candidate_reference": "a09943b079a5fb19aabf31101bf65acb9cf2eaa4",
+  "observed_checkout": null,
+  "python_version": null,
+  "tests": {
+    "run": 15,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_seconds": "6.019"
+  },
+  "gate_exit": null,
+  "limitations": [
+    "Only unittest summary supplied; no standalone build/verify output.",
+    "Executed checkout and interpreter version not separately captured.",
+    "Independent acceptance pending."
+  ]
+}
